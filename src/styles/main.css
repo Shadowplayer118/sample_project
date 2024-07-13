@@ -1,0 +1,26 @@
+body{
+    background: #434343;
+}
+.title{
+    color: gainsboro;
+    background-color: red;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.title:hover{
+    background-color: rgb(101, 4, 4);
+    transition: all .5s ease-in-out;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    /* transform: translate(50%,150%); */
+
+
+}
+
+.subtitle{
+    color: #aaa6a6
+}
